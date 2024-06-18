@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="owl/2.css">
+    <link rel="stylesheet" href="owl/4.css">
+    <link rel="stylesheet" href="style.css">
+    <title>31-dars</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row owl-carousel">
+      <div class="col-12">
+        <div class="card" >
+          <img src="https://picsum.photos/id/20/300/200" class="card-img-top" alt="img error">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="card" >
+          <img src="https://picsum.photos/id/80/300/200" class="card-img-top" alt="img error">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="card" >
+          <img src="https://picsum.photos/id/50/300/200" class="card-img-top" alt="img error">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Set up your HTML -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="owl/1.js"></script>
+    <script src="owl/3.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+          items:5,
+          loop:true,
+          autoplay:true,
+          autoplayTimeout: 1,
+          margin: 20,
+        });
+      });
+    </script>
+</body>
+
+</html>
